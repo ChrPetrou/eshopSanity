@@ -80,10 +80,10 @@ export default defineType({
     },
     {
       name: 'subCategory',
-      title: 'sub-category',
+      title: 'subcategory',
       type: 'array',
       validation: (Rule) => Rule.required(),
-      of: [{type: 'reference', to: [{type: 'Sub-Category'}]}],
+      of: [{type: 'reference', to: [{type: 'subCategory'}]}],
       description: 'add product categories',
     },
     {

@@ -3,7 +3,7 @@ import {BiSolidCategory as icon} from 'react-icons/bi'
 
 export default defineType({
   name: 'category',
-  title: 'category',
+  title: 'Category',
   type: 'document',
   icon,
   fields: [
