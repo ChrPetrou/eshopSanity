@@ -23,9 +23,8 @@ export default defineType({
       },
     },
     {
-      name: 'shortDescription',
-      title: 'Short Description',
-      validation: (Rule) => Rule.required(),
+      name: 'ShortDescription',
+      title: 'shortDescription',
       type: 'string',
       description: 'add product short description',
     },
