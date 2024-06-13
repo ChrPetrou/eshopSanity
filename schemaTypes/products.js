@@ -65,7 +65,7 @@ export default defineType({
       description: 'add product description',
     },
     {
-      name: 'image',
+      name: 'coverImage',
       title: 'CoverImage',
       type: 'image',
       description: 'add product image',
