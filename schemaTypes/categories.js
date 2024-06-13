@@ -2,8 +2,8 @@ import {defineType, defineField, defineArrayMember} from 'sanity'
 import {BiSolidCategory as icon} from 'react-icons/bi'
 
 export default defineType({
-  name: 'categories',
-  title: 'categories',
+  name: 'category',
+  title: 'category',
   type: 'document',
   icon,
   fields: [
